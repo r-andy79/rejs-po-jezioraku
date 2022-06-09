@@ -1,0 +1,105 @@
+/* ====== GOOGLE FONTS ====== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+
+  /* ====== COLORS ====== */
+  --first-color: #202a44;
+  --dark-color: #0B2844;
+  --dark-color-alt: #1E89C1;
+  --ligh-color: #376185;
+  --white-color: #E6E7E9;
+
+  /* ====== TYPOGRAPHY ====== */
+  --body-font: 'Poppins', sans-serif;
+  --heading-font: 'Roboto Slab', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+
+  /* ====== Z-INDEX ====== */
+  --z-fixed: 100;
+}
+
+/* ====== BASE ====== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  width: 15%;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  /* line-height: 1.7; */
+  background-color: var(--first-color);
+  padding: .75rem;
+  
+}
+
+header {
+  margin: 3rem 0;
+}
+
+footer {
+  color: var(--white-color)
+}
+
+figure {
+  padding: .75rem;
+  background: var(--first-color);
+  margin-bottom: 1.5rem;
+}
+
+figure figcaption {
+  color: var(--white-color)
+}
+
+ion-icon {
+  font-size: 24px;
+}
+
+.container {
+  background-color: var(--white-color);
+  border-radius: .5rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--heading-font);
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem 0 1rem 0;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin: .5rem 0;
+}
+
+p {
+  margin-bottom: .75rem;
+}
